@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="timer">
+          <h1 id="display">00.00</h1>
+          <div class="pomodoro">
+            <div class="study">
+              <h3>Study Session</h3>
+              <button value="15">15 mins</button>
+              <button value="25">25 mins</button>
+              <button value="45">45 mins</button>
+            </div>
+            <div class="break">
+              <h3>Break Time</h3>
+              <button value="5">5 mins</button>
+              <button value="10">10 mins</button>
+              <button value="30">30 mins</button>
+            </div>
+          </div>
+          <img src="https://i.pinimg.com/originals/93/c7/e9/93c7e963c5429ba38a6dc1786cbc5104.gif" alt="cinnamonroll">
+          <p id="gif-text">focus is feeling calm and peaceful.</p>
+        </div>
+        <div class="buttons">
+          <button id="start">Start</button>
+          <button id="pause">Pause</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+      
+      
+      <script>
+    display.textContent = "00:00";
+  </script>
+
+  <script src="renderer.js"></script>
+    
+    
+</body>
+</html>

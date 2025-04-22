@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+* {
+  font-family : "Iceberg", sans-serif;
+}
+
+.form {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  /* margin: 80px 0 0 200px; */
+  border: 2px solid #1d89e0;
+  border-radius: 20px;
+}
+.timer {
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  margin: 10px;
+  background: white;
+}
+.timer h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+.timer img {
+  width: 120px;
+}
+
+.study, .break {
+ margin: 5px;
+}
+.pomodoro button {
+  font-size: 15px;
+  margin: 2px;
+  color: #1d89e0;
+}
+.buttons {
+  background: #bbdffc;
+  border-radius: 0 20px 20px 0;
+  min-width: 300px;
+}
+.buttons button {
+  font-size: 50px;
+  margin: 50px 0 0 80px;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  background-color: #1d89e0;
+  border-radius: 10px;
+}
+.buttons button:hover {
+   box-shadow: 2px 2px 3px 0 #594c42;
+}
+
+ button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
